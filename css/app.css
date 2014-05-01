@@ -1,0 +1,47 @@
+body {
+	font-family: 'Roboto', sans-serif;	
+}
+
+.ui-header {
+	text-shadow: none;
+	background-color: #38f;
+	color: white;
+}
+
+#optionPanel {
+	background-color: #666666;
+}
+
+#optionPanel h4 {
+	text-shadow: none;
+	color: #cccccc;
+	font-weight: 300;
+	font-size: 20px;
+
+}
+/*
+.ui-header a {
+	height: 26px;
+	border: none !important;
+	background-color: transparent !important;
+}
+*/
+
+
+/*
+ * Extend jQuery Mobile
+ */
+.ui-navbar li a {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 5px;
+}
+.ui-icon-twitter {
+	background-image: url("images/icon/twitter.png");		
+}
+.ui-icon-border-color {
+	background-image: url("images/icon/border_color.png");		
+}
+.ui-icon-statistics {
+	background-image: url("images/icon/statistics.png");		
+}

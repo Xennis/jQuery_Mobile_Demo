@@ -7,7 +7,7 @@ $(document).on("pageinit", function () {
     $("[data-role='navbar']").navbar();
     $("[data-role='header'], [data-role='footer']").toolbar();
     
-    $('#optionNavbar').listview().listview('refresh');    
+    $("[data-role='listview']").listview().listview('refresh');    
 });
 // Update the contents of the toolbars
 $(document).on("pageshow", "[data-role='page']", function () {

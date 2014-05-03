@@ -19,6 +19,12 @@ body {
 	font-size: 20px;
 
 }
+
+#optionPanel li a {
+	font-size: 14px;
+	text-shadow: none;
+	font-weight: 300;
+}
 /*
 .ui-header a {
 	height: 26px;

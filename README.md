@@ -13,10 +13,13 @@ Used graphics
 
 ### Notes
 
-Icons:
+More icons:
 * https://www.iconfinder.com/search/?q=iconset:windows-8-metro-style
 * http://modernuiicons.com/
 * http://brankic1979.com/icons/
 * http://www.webdesignerdepot.com/2013/08/free-download-48-flat-designer-icons/
 * http://iconmelon.com/#/page-1
 * https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/26/statistics.png
+
+More jQuery Mobile themes
+* https://github.com/ququplay/jquery-mobile-square-ui-theme

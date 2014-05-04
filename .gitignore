@@ -1,0 +1,24 @@
+############
+## Eclipse
+############
+ 
+.settings/
+#.project
+.classpath
+bin/
+
+############
+## ADT
+############
+
+gen/
+res/values-*/
+project.properties
+
+############
+## Custom
+############
+
+libs/
+assets/
+proguard-project.txt

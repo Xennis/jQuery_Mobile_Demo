@@ -1,5 +1,4 @@
 var mapDisplay = new MapDisplay('map');
-var map = mapDisplay.map;
 var mapFirstTimeResize = true;
 
 $(document).on("pageinit", function () {
@@ -35,6 +34,6 @@ $(document).on("pageshow", "[data-role='page']", function () {
 $("#mapView").on("pageshow", function() {
 	if (mapFirstTimeResize) {
 		mapFirstTimeResize = false;
-		map._onResize(); 
+		mapDisplay.resize();
 	}
 });

@@ -9,20 +9,25 @@ Used JavaScript libraries
 * [jQuery Mobile](http://jquerymobile.com/) (v.1.4)
 * [Leaflet](http://leafletjs.com/) (v0.7.2)
 
-Used graphics
+Used graphics and fonts
 * App icon [Windows 8 metro style](https://www.iconfinder.com/iconsets/windows-8-metro-style) by [icons8](http://icons8.com/license/)
     * 1398979401_twitter, 1398979613_border_color, ???_statistics
+* Font [Roboto](http://www.google.com/fonts/specimen/Roboto)
 
 ### Demo and screenshots
 
 **Demo**: http://xennis.github.io/jQuery_Mobile_Demo/
 
 Header, toolbar, Leaflet map and footer
+
 ![map_view](_screenshots/map_view.png)
 
 Panel
+
 ![alt text](_screenshots/panel.png)
 
+
+(Screenshots took with [Ripple Emulator](https://chrome.google.com/webstore/detail/ripple-emulator-beta/geelfhphabnejjhdalkjhgipohgpdnoc))
 
 ### Notes
 

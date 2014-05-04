@@ -1,6 +1,5 @@
 # jQuery Mobile Demo
 
-Demo: http://xennis.github.io/jQuery_Mobile_Demo/
 
 ### Used software and files
  
@@ -8,10 +7,22 @@ Used JavaScript libraries
 
 * [jQuery](http://jquery.com) (v.1.4)
 * [jQuery Mobile](http://jquerymobile.com/) (v.1.4)
+* [Leaflet](http://leafletjs.com/) (v0.7.2)
 
 Used graphics
 * App icon [Windows 8 metro style](https://www.iconfinder.com/iconsets/windows-8-metro-style) by [icons8](http://icons8.com/license/)
     * 1398979401_twitter, 1398979613_border_color, ???_statistics
+
+### Demo and screenshots
+
+**Demo**: http://xennis.github.io/jQuery_Mobile_Demo/
+
+Header, toolbar, Leaflet map and footer
+![map_view](_screenshots/map_view.png)
+
+Panel
+![alt text](_screenshots/panel.png)
+
 
 ### Notes
 

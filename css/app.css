@@ -2,14 +2,20 @@ body {
 	font-family: 'Roboto', sans-serif;	
 }
 
-#mapView {
-//	position: relative;
-//	top: 90;
-//	left: 0;
-//	right: 0;
+/*
+ * Map position
+ */
+.ui-page#mapView {
 	bottom: 0;
 }
-
+#mapView .ui-panel-wrapper,
+#mapView .ui-content {
+	bottom: 0;
+	height: 100%;
+}
+#mapView .ui-content {
+	padding: 0;
+}
 #map {
 	width: 100%;
 	height: 100%;

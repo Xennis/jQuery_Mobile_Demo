@@ -2,10 +2,10 @@
 <html>
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>jQuery Demo</title>
+	<title>jQuery Demo</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
@@ -15,67 +15,67 @@
 </head>
 <body>
 
-    <div data-role="header" data-theme="a" data-position="fixed">
-        <h1>Demo</h1>
-        <a href="#optionPanel" data-icon="bars" data-iconpos="notext" data-iconshadow="false" class="ui-btn-left">Options</a>
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#listView" data-icon="border-color" class="ui-nodisc-icon ui-btn-active ui-state-persist"></a></li>
-                <li><a href="#mapView" data-icon="statistics" class="ui-nodisc-icon"></a></li>
-                <li><a href="#postView" data-icon="twitter" class="ui-nodisc-icon"></a></li>
-            </ul>
-        </div><!-- /navbar -->
-    </div><!-- /header --> 
-    
-    <div data-role="panel" id="optionPanel" data-theme="a"  data-position="left" data-display="push">
+	<div data-role="header" data-theme="a" data-position="fixed">
+		<h1>Demo</h1>
+		<a href="#optionPanel" data-icon="bars" data-iconpos="notext" data-iconshadow="false" class="ui-btn-left">Options</a>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#listView" data-icon="border-color" class="ui-nodisc-icon ui-btn-active ui-state-persist"></a></li>
+				<li><a href="#mapView" data-icon="statistics" class="ui-nodisc-icon"></a></li>
+				<li><a href="#postView" data-icon="twitter" class="ui-nodisc-icon"></a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /header --> 
+
+	<div data-role="panel" id="optionPanel" data-theme="a"  data-position="left" data-display="push">
 		<h4>Mail</h4>
-        <ul data-role="listview" id="optionNavbar" data-inset="true">
-            <li><a href="#">Inbox</a> <span class="ui-li-count">8</span></li>
-            <li><a href="#">Outbox</a> <span class="ui-li-count">1</span></li>
+		<ul data-role="listview" id="optionNavbar" data-inset="true">
+			<li><a href="#">Inbox</a> <span class="ui-li-count">8</span></li>
+			<li><a href="#">Outbox</a> <span class="ui-li-count">1</span></li>
 		</ul>
 		<h4>Contacts</h4>
-        <ul data-role="listview" data-inset="true">
-            <li><a href="#">Friends</a></li>
-            <li><a href="#">Work</a></li>
-        </ul>
-    </div><!-- /panel -->
-    
-    <div data-role="page" id="listView">
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#">Friends</a></li>
+			<li><a href="#">Work</a></li>
+		</ul>
+	</div><!-- /panel -->
+
+	<div data-role="page" id="listView">
 		<div data-role="content">
-            <button type="button" id="getInks" data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Get locations</button>
-            <ul id="sampleList" data-role="listview" data-filter="true">
+			<button type="button" id="getInks" data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Get locations</button>
+			<ul id="sampleList" data-role="listview" data-filter="true">
 				<li>One</li>
 				<li>Two</li>
 				<li>Three</li>
-			</ul>            
-        </div>
-    </div>
+			</ul>
+		</div>
+	</div>
 
-    <div data-role="page" id="mapView">
+	<div data-role="page" id="mapView">
 		<div data-role="content">
 			<div id="map"></div>
 		</div>
 		<div data-role="footer" data-theme="a" data-position="fixed">
 			<h4>Footer</h4>
-		</div><!-- /header --> 		
-    </div>
-        
-    <div data-role="page" id="postView">
+		</div><!-- /header -->
+	</div>
+
+	<div data-role="page" id="postView">
 		<div data-role="content">
-            <form action="" id="postInk">
-               <textarea name="Text1" rows="5" placeholder="Your message ..."></textarea>
-               <label for="slider-3">Speed:</label>
-               <input type="range" name="slider-3" id="slider-3" min="0" max="100" value="50" data-show-value="true" data-popup-enabled="true">
-              <input type="submit" value="Post" data-icon="check">
-            </form>
-        </div>
-    </div>
-    
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<form action="" id="postInk">
+				<textarea name="Text1" rows="5" placeholder="Your message ..."></textarea>
+				<label for="slider-3">Speed:</label>
+				<input type="range" name="slider-3" id="slider-3" min="0" max="100" value="50" data-show-value="true" data-popup-enabled="true">
+				<input type="submit" value="Post" data-icon="check">
+			</form>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 	<script src="js/map/map-display.js"></script>
-    <script src="js/app.js"></script>
-	
+	<script src="js/app.js"></script>
+
 </body>
 </html>

@@ -9,13 +9,12 @@
 	 */
 	function MapDisplay(elementID) {
 		
-		var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/ad132e106cd246ec961bbdfbe0228fe8/{styleId}/256/{z}/{x}/{y}.png';
-		var cloudmadeAttribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://cloudmade.com">CloudMade</a>';
+		var osmUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+		var osmAttribution = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
 
-		var baseLayer = L.tileLayer(cloudmadeUrl, {
+		var baseLayer = L.tileLayer(osmUrl, {
 			maxZoom: 18,
-			styleId: 997,
-			attribution: cloudmadeAttribution
+			attribution: osmAttribution
 		});
 	
 		this.map = L.map(elementID, {
